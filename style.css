@@ -154,6 +154,14 @@ body {
   margin-top: var(--image-margin);
 }
 
+/* Very light scaling for our illustration */
+.illustration3 {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+}
+
+
 /* Instructions */
 .instructions {
   margin: 1rem auto 0;
@@ -184,6 +192,11 @@ h2 {
 
 /* Interactive image */
 .illustration2:active {
+  transform: translateY(5px);
+}
+
+/* Interactive image */
+.illustration3:active {
   transform: translateY(5px);
 }
 
